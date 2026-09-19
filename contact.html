@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Twin Cities Animal Rescue | Contact and Get Involved</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html">
+
+            <img src="rescue-logo_c.png"
+
+                 alt="Twin Cities Animal Rescue logo"
+
+                 width="180">
+
+        </a>
+
+        <nav aria-label="Main navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="services.html">Adopt and Help</a>
+
+            <a href="about.html">About Our Rescue</a>
+
+            <a href="contact.html">Contact and Get Involved</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Contact and Get Involved</h1>
+
+        <p>
+
+            Interested in adopting, fostering, volunteering, or learning more?
+
+            Complete the form below to contact Twin Cities Animal Rescue.
+
+        </p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+                <p>
+
+                    <label for="name">Name:</label><br>
+
+                    <input type="text"
+
+                           id="name"
+
+                           name="name"
+
+                           required
+
+                           maxlength="50">
+
+                </p>
+
+                <p>
+
+                    <label for="email">Email:</label><br>
+
+                    <input type="email"
+
+                           id="email"
+
+                           name="email"
+
+                           required>
+
+                </p>
+
+                <p>
+
+                    <label for="phone">Phone Number:</label><br>
+
+                    <input type="tel"
+
+                           id="phone"
+
+                           name="phone"
+
+                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+
+                           placeholder="555-555-5555">
+
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>How Would You Like to Get Involved?</legend>
+
+                <p>
+
+                    <label for="interest">Area of Interest:</label><br>
+
+                    <select id="interest" name="interest" required>
+
+                        <option value="">Choose an option</option>
+
+                        <option value="adoption">Adoption</option>
+
+                        <option value="fostering">Fostering</option>
+
+                        <option value="volunteering">Volunteering</option>
+
+                        <option value="general">General Inquiry</option>
+
+                    </select>
+
+                </p>
+
+                <p>
+
+                    <label for="message">Message:</label><br>
+
+                    <textarea id="message"
+
+                              name="message"
+
+                              rows="6"
+
+                              cols="40"
+
+                              maxlength="500"
+
+                              required></textarea>
+
+                </p>
+
+            </fieldset>
+
+            <p>
+
+                <button type="submit">Submit</button>
+
+            </p>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 Twin Cities Animal Rescue. Helping animals find loving homes.</p>
+
+    </footer>
+
+</body>
+
+</html>
