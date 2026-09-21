@@ -129,7 +129,17 @@ function validateForm(event) {
 
         event.preventDefault();
 
-    }
+  
+
+} else {
+
+    event.preventDefault();
+
+    alert("Thank you! Your message has been submitted successfully.");
+
+    event.target.reset();
+
+}
 
 }
 
